@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Sigmar One', cursive;
+}
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 60px;
+	padding: 0 100px;
+	font-weight: bold;
+
+}
+nav ul{
+	float:right;
+	margin-right: 20px;
+}
+nav ul li{
+	display:inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+padding:  7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #1b9bff;
+	transition:  .5s;
+}
+.chekbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#chek{
+	display: none;
+}
+@media (max-width: 952){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+}
+@media(max-width: 858){
+	.chekbtn{
+		display: block;
+	}
+
+ul{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #2c3e50;
+	top: 80px;
+	left: 0;
+	text-align: center;
+	
+}
+nav ul li a {
+	font-size: 20px;
+}
+a:hover,:active{
+	background: none;
+	color: #0082e6;
+}
+
+
+nav ul li a {
+	font-size: 15px;
+}
+ul{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #2c3e50;
+	top: 80px;
+	left: -100%;
+	text-align: center;
+	transition: all .5s;
+}
+nav ul li{
+	display: block;
+	margin: 50px 0;
+	line-height: 30px;
+}
+
+
+nav ul li a{
+	font-size: 20px;
+}
+a:hover,:active{
+	background: none;
+	color: #0082e6;
+}
+#check:checked ~ ul{
+	left: 0;
+}
+}
+q{
+	font-size: 40px;
+	color:black;
+}
+#home span{
+color: coral;
+}
+button{
+	font-size:8px ;
+	font-weight: 700;
+	outline: none;
+	border: non0;
+	background-color: black;
+	color:white;
+	padding: 13px 30px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: 0.3s ease;	
+}
+ button:hover {
+	 background-color: #3a3833;
+ }
+ #home{
+	 background-image: url(pexels-pixabay-46798.jpg);
+	 width: 100%;
+	 height: 100vh;
+	 background-size: cover;
+ }
+#blog{
+	text-align:center;
+}
+.cup{
+	width: 100px;
+	height: 100px;
+    margin:-30% auto;
+}
+.photo{
+	width:100px;
+	height:100px;
+	margin: 197px -635px;
+	
+	
+}
